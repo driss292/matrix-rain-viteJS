@@ -19,9 +19,9 @@ class Symbol {
             Math.floor(Math.random() * this.characters.length)
         );
         context.fillStyle = "#0aff0a";
-        context.fiilText(
+        context.fillText(
             this.text,
-            this.x * this?.fontSize,
+            this.x * this.fontSize,
             this.y * this.fontSize
         );
         if (this.y * this.fontSize > this.canvasHeigth) {
